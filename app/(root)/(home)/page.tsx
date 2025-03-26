@@ -2,9 +2,7 @@ import MeetingTypeList from '@/components/MeetingTypeList';
 
 const Home = () => {
   const now = new Date();
-  
-  //time zone block
-  
+  // time zone block
   const time = now.toLocaleTimeString('en-US', { 
     hour: '2-digit',
     minute: '2-digit',
