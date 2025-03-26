@@ -15,7 +15,7 @@ Meetify is a modern video conferencing app built with **Next.js**, featuring rea
 
 ## 📦 Installation  
 ```bash
-git clone https://github.com/coder-chitra/Meetify.git
+git clone https://github.com/coder-chitra/MeetifyProject
 cd meetify-project
 npm install
 npm run dev
