@@ -1,5 +1,5 @@
-# Meetify - Video Meeting App  
-
+# Meetify - Video Conferencing App 
+ 
 Meetify is a modern video conferencing app built with **Next.js**, featuring real-time chat, screen sharing, and secure authentication.  
 
 ## 🚀 Features  
