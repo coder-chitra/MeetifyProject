@@ -3,13 +3,15 @@ import MeetingTypeList from '@/components/MeetingTypeList';
 const Home = () => {
   const now = new Date();
   // time zone block
-  const time = now.toLocaleTimeString('en-US', { 
+  const time = now.toLocaleTimeString('en-US', {
     hour: '2-digit',
     minute: '2-digit',
-    timeZone: 'Asia/Kolkata' 
-   });
-  const date = (new Intl.DateTimeFormat('en-US', { dateStyle: 'full', 
-    timeZone: 'Asia/Kolkata'  })).format(now);
+    timeZone: 'Asia/Kolkata',
+  });
+  const date = new Intl.DateTimeFormat('en-US', {
+    dateStyle: 'full',
+    timeZone: 'Asia/Kolkata',
+  }).format(now);
 
   return (
     <section className="flex size-full flex-col gap-5 text-white">
